@@ -25,7 +25,7 @@
             display: block;
             /* border: 2px solid pink; */
             margin: 9px auto;
-            width: 55%;
+            width: 75%;
         }
         .right{
             display: inline-block;
@@ -80,16 +80,16 @@
         .container{
             text-align: center;
             border: 2px solid white;
-            margin: 33px 64px;
+            margin: 33px 18px;
             padding: 15px 18px;
-            width: 35%;
+            width: 44%;
             border-radius: 20px;
             font-style: italic;
         }
         .group{
-            margin: 44px 69px;
+            margin: 44px -4px;
             padding: 2px 2px;
-            width: 35%;
+            width: 54%;
             font-size: 20px;
             font-style: italic;
         }
