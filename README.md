@@ -1,2 +1,166 @@
 # Fitness-Gym-Front-end-page
 This is only the front end work of Fitness gym website using basic Html and CSS
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+    <link rel="stylesheet" href="css/gym.css">
+    <style>
+        /* CSS reset */
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(people-2604149_1920.jpg);
+        }
+        .left{
+            display: inline-block;
+            /* border: 2px solid green; */
+            position: absolute;
+            left: 61px;
+            top: 2px;
+            font-style: italic;
+        }
+        .mid{
+            display: block;
+            /* border: 2px solid pink; */
+            margin: 9px auto;
+            width: 55%;
+        }
+        .right{
+            display: inline-block;
+            /* border: 2px solid blue; */
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+            font-style: italic;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 30px 20px;
+            font-size: 30px;
+        }
+        .left img{
+            width: 92px;
+            filter: invert(100%);
+        }
+        .left div{
+            text-align: center;
+            line-height: 2px;
+            font-size: 20px;
+        }
+        .navbar li a:hover{
+            color: grey;
+            text-decoration: underline;
+        }
+        .btn{
+            background-color: black;
+            color: white;
+            margin: 0px 9px;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 15px;
+            font-size: 20px;
+            cursor: pointer;
+            font-style: italic;
+
+        }
+        .btn:hover{
+            color: rgb(107, 106, 106);
+        }
+        .container{
+            text-align: center;
+            border: 2px solid white;
+            margin: 33px 64px;
+            padding: 15px 18px;
+            width: 35%;
+            border-radius: 20px;
+            font-style: italic;
+        }
+        .group{
+            margin: 44px 69px;
+            padding: 2px 2px;
+            width: 35%;
+            font-size: 20px;
+            font-style: italic;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 51%;
+            padding: 8px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 6px auto;
+            font-style: italic;
+            font-weight: bold;
+            color: black;
+        }
+        .container button{
+            display: block;
+            width: 54%;
+            margin: 7px auto;
+            background-color: transparent;
+            color: black;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+      <!-- Left box for logo  -->
+       <div class="left">
+          <img src="gym-1048852_1280.png" alt="">
+          <div>Fitness Gym</div>
+       </div>
+       <!-- Mid box for navbar -->
+       <div class="mid">
+             <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Tips</a></li>
+                <li><a href="#">Contact us</a></li>
+             </ul>
+       </div>
+       <!-- Right box for button -->
+       <div class="right">
+         <button class="btn">Call us now</button>
+         <button class="btn">Email us</button>
+       </div>
+       <div>
+           <div class="group">
+             <h1>Welcome to the Fitness Gym</h1>
+           </div >
+           <div class="container">
+               <h2>Join us today for better fitness</h2>
+                <form action="notaion.php" class="form-group" method="post">
+                 <div>
+                    <input type="text" name="" id="" placeholder="Enter Your Name">
+                 </div>
+                 <div>
+                    <input type="number" name="" id="" placeholder="Enter Your Age">
+                 </div>
+                 <div>
+                    <input type="text" name="" id="" placeholder="Enter Your Gender">
+                 </div>
+                 <div>
+                    <input type="number" name="" id="" placeholder="Enter your Number">
+                 </div>
+                 <button class="btn">Sumbit</button>
+               </form>
+            </div>
+       </div>
+    </header>   
+</body>
+</html>
